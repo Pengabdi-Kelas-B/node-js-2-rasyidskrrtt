@@ -14,4 +14,5 @@ module.exports = {
     Borrower: mongoose.model('Borrower', BorrowerSchema),
     Borrowing: mongoose.model('Borrowing', BorrowingSchema),
     BookStock: mongoose.model('BookStock', BookStockSchema),
+    StockLog: mongoose.model('StockLog', StockLogSchema)
 };
